@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- custom cdnjs link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header-section" id="home">
+      <div class="container navbar-only">
+        <div class="logo">RENE<span>DIVINE</span></div>
+        <nav class="navbar">
+          <ul class="navcontent">
+            <li class="navitems"><a href="#home" class="navlink">Home</a></li>
+            <li class="navitems">
+              <a href="#service" class="navlink">Services</a>
+            </li>
+            <li class="navitems"><a href="#team" class="navlink">Team</a></li>
+            <li class="navitems">
+              <a href="#contact" class="navlink">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero-section">
+        <h1>WELCOME <br /><span>TO MY PORTFOLIO.</span></h1>
+        <p>
+          A passionate web developer with a knack for turning <br />
+          ideas into interactive and visually appealing digital <br />
+          experiences
+        </p>
+      </div>
+    </header>
+    <!-- services section starts here -->
+    <main class="container services-section" id="service">
+      <div class="services-header">
+        <h2>SERVICES</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
+          perspiciatis soluta officiis animi?
+          <br />Voluptatibus quaerat vel qui nemo, voluptatem soluta.
+        </p>
+      </div>
+      <div class="servicescard">
+        <div class="cardcontent1">
+          <div class="card">
+            <i class="fa-solid fa-desktop"></i>
+            <h5>WEB DESIGN</h5>
+            <p>
+              We provide web designing services designing various<br />
+              sorts of user-friendly websites.
+            </p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-code"></i>
+            <h5>WEB DEVELOPMENT</h5>
+            <p>
+              We provide web development services,bringing various <br />design
+              to life
+            </p>
+          </div>
+        </div>
+        <div class="cardcontent1">
+          <div class="card">
+            <i class="fa-solid fa-pen-nib"></i>
+            <h5>COPYWRITING</h5>
+            <p>
+              we provide copywriting services with good <br />call-to-action to
+              attract audiences <br />and boost sales
+            </p>
+          </div>
+          <div class="card">
+            <i class="fa-brands fa-figma"></i>
+            <h5>UI/UX</h5>
+            <p>
+              we provide ui/ux services designing user-friendly<br />
+              templates for websites, <br />apps and so on.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Our team section starts here -->
+    <section class="teamsection" id="team">
+      <div class="teamheader">
+        <h2 class="teamheading">OUR TEAM</h2>
+      </div>
+      <div class="teamcard">
+        <div class="card">
+          <img src="/images/man.png" alt="Team's Image" />
+          <h4>RENE-DIVINE</h4>
+          <h5>Developer & Copywriter</h5>
+          <p>
+            A knowledgeable web developer well versed <br />
+            in both frontend and backend <br />
+            development
+          </p>
+        </div>
+        <div class="card">
+          <img src="/images/man.png" alt="Team's Image" />
+          <h4>SONNY</h4>
+          <h5>Developer & Designer</h5>
+          <p>
+            A knowledgeable web developer well versed <br />
+            in both frontend and backend <br />
+            development
+          </p>
+        </div>
+        <div class="card">
+          <img src="/images/man.png" alt="Team's Image" />
+          <h4>SYBRATE</h4>
+          <h5>Web & UI/UX Designer</h5>
+          <p>
+            A creative designer well versed in the <br />
+            art of creating awe-inspiring <br />
+            designs
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact session starts here -->
+    <section class="contact-session" id="contact">
+      <h2>SEND US MESSAGE</h2>
+      <form action="#" class="forms-content">
+        <div class="forms">
+          <label for="fullname">Fullname:</label><br />
+          <input type="text" class="fullname" id="fullname" required /><br />
+          <label for="email">Email:</label><br />
+          <input type="email" class="email" id="email" required /><br />
+          <label for="subject">Subject:</label><br />
+          <input type="text" id="subject" class="subject" required /><br />
+          <label for="message">Message:</label><br />
+          <input type="text" id="message" required /><br />
+        </div>
+        <label for="terms">
+          <input class="terms" type="checkbox" value="terms" name="terms" />I
+          agree</label
+        ><br />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <!-- footer section starts here -->
+    <footer class="footer-section">
+      <p>
+        Thanks! for taking your time going through our portfolio. Right below
+        this! are the links to our social media page. <br />Kindly follow us and
+        comment on our posts.
+      </p>
+      <div class="page-icons">
+        <a
+          href="http://www.facebook.com/profile.php?id=100085503396927"
+          target="_blank"
+          ><i class="fa-brands fa-square-facebook"></i
+        ></a>
+        <a href="" target="_blank"
+          ><i class="fa-brands fa-square-linkedin"></i
+        ></a>
+        <a href="http://wa.me/+2349120960591" target="_blank"
+          ><i class="fa-brands fa-square-whatsapp"></i
+        ></a>
+        <a href="" target="_blank"
+          ><i class="fa-brands fa-square-twitter"></i
+        ></a>
+        <a href="" target="_blank"
+          ><i class="fa-brands fa-square-instagram"></i
+        ></a>
+      </div>
+      <p>&copy; Copyrights. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
